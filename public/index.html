@@ -219,3 +219,4 @@ async function diag(name){if(!name)return toast('Enter a username');const rows=[
  out.insertAdjacentHTML('afterbegin','<p class="mut sm">Finished. Press "Copy report" and send it to me if anything shows FAIL.</p>')}
 (async()=>{try{Object.assign(S,await(await fetch('/api/data')).json())}catch{toast('Server not reachable')}setTheme();show(1);schedule();if(S.accs.some(a=>!a.d))checkAll()})();
 </script></body></html>
+
