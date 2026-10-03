@@ -1,0 +1,1 @@
+{"name":"ro-viewer","version":"2.1.0","description":"Ro-Viewer - local Roblox public-data viewer","author":"HafizIbrahimSuriya","license":"MIT","scripts":{"start":"node server.js"},"engines":{"node":">=18"}}
